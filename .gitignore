@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data
+data/raw/
+data/bronze/
+data/silver/
+
+# Notebook files
+.ipynb_checkpoints/
+
+# VS Code local settings
+.vscode/
